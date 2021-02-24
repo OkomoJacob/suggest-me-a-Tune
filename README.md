@@ -32,3 +32,10 @@ I've mentioned a bit of `Model Persistence` at the end, so just scroll through.
 
 #### 7. Evaluate and Improve the performance of the Model
 - This is involves fine-tuning the parameters of our model for better accuracy or selecting another model that will produce better results.
+
+### Model Persistence
+-This involves creating a model, training it and fine-tuning it and finally saving it as an importable file.
+this saves us the burden of re-training again and again when a new user needs predictions.
+Again this saves us the burden of computational complexity and expense.
+
+So we'll use the `joblib` object (Which has many methods for saving and loading models) `from sklearn.externals library`
