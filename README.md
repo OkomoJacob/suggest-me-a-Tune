@@ -1,6 +1,6 @@
 ## Detailed Explanation about this Mini Project
 The custome made music.csv file has `3 columns Age, gender(1; Male, 0; Female)`
-
+I've mentioned a bit of `Model Persistence` at the end, so just scroll through.
 
 ### Steps I followed in this Machine Learning App Developement
 ##### The steps below are `generally` the correct steps to follow for any ML model developement.
