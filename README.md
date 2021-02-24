@@ -38,4 +38,4 @@ I've mentioned a bit of `Model Persistence` at the end, so just scroll through.
 This saves us the burden of re-training the model again and again when a new user needs tto perform predictions and do evaluations.
 Again this saves us the burden of computational complexity and expenses.
 
-So we'll use the `joblib` object (Which has many methods for saving and loading models) `from sklearn.externals` library(For python 2.x upto) and `import jolib` for pyton 3.X
+So we'll use the `joblib` object (Which has many methods for saving and loading models) `from sklearn.externals` library(For python 2.x upto) and `import jolib` for python 3.X
