@@ -19,7 +19,7 @@
 - This normally depends on the project you're doing.Examples include
     - Decision Trees
     - NN <br>
-A good Example is the `scikit-learn` library that has a lot of ML Algorithms.
+- A good Example is the `scikit-learn` library that has a lot of ML Algorithms.
 
 ### 5. Train the Model
 
