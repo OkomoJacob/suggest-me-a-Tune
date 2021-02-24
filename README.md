@@ -1,4 +1,4 @@
-## Detailed Explanation about this Mini Project
+## Detailed Explanation about this Mini Project and More about Machine Learning for General Predictive Analytics
 The custome made music.csv file has `3 columns Age, gender(1; Male, 0; Female)`
 I've mentioned a bit of `Model Persistence` at the end, so just scroll through.
 
@@ -34,8 +34,8 @@ I've mentioned a bit of `Model Persistence` at the end, so just scroll through.
 - This is involves fine-tuning the parameters of our model for better accuracy or selecting another model that will produce better results.
 
 ### Model Persistence
--This involves creating a model, training it and fine-tuning it and finally saving it as an importable file.
-this saves us the burden of re-training again and again when a new user needs predictions.
-Again this saves us the burden of computational complexity and expense.
+-This involves creating a model, training it and fine-tuning it and finally saving it as an importable `.joblib` file.
+This saves us the burden of re-training the model again and again when a new user needs tto perform predictions and do evaluations.
+Again this saves us the burden of computational complexity and expenses.
 
-So we'll use the `joblib` object (Which has many methods for saving and loading models) `from sklearn.externals library`
+So we'll use the `joblib` object (Which has many methods for saving and loading models) `from sklearn.externals` library(For python 2.x upto) and `import jolib` for python 3.X
