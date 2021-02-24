@@ -12,5 +12,5 @@ import joblib
 model = joblib.load('music-recommender-app.joblib')
 # We use it to makee predictions.
 
-predictions = model.predict([[21, 1]])
+predictions = model.predict([[22, 0]])
 print(predictions)
