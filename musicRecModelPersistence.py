@@ -8,5 +8,13 @@ from sklearn.tree import DecisionTreeClassifier
 import pandas as pd
 import joblib
 
+
 musicData = pd.read_csv('music.csv')
 X = musicData.drop(columns=['genre'])
+y = musicData['genre']
+
+model = DecisionTreeClassifier()
+model.fit(X, y)
+
+# now saving the pre-trained model
+joblib.dump(model, 'music-recommender-app.joblib')
